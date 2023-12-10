@@ -3,6 +3,7 @@ import { siteConfig } from './lib/site-config'
 export default siteConfig({
   // the site's root Notion page (required)
   rootNotionPageId: 'FlexiGrow-fe36b255508346748e09150dcfefa414',
+  // https://amazing-lilac-272.notion.site/FlexiGrow-fe36b255508346748e09150dcfefa414?pvs=4
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,7 +11,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'FlexiGrow',
-  domain: 'https://www.notion.so/FlexiGrow-fe36b255508346748e09150dcfefa414',
+  domain: 'https://amazing-lilac-272.notion.site/FlexiGrow-fe36b255508346748e09150dcfefa414?pvs=4',
   author: 'Mingheng Wu',
 
   // open graph metadata (optional)
